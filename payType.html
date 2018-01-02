@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link href="//cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="css/common.css">
+    <title>黄埔定制版库神钱包邀请码</title>
+</head>
+<body>
+<div class="order-header" id="header">
+    <div class="header-back">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </div>
+    <div><span>确认订单</span></div>
+    <div class="header-customer-service" id="modalBtn">
+        <span class="">联系客服</span>
+    </div>
+</div>
+<div class="container" style="padding-bottom:3rem;">
+   <div class="common-pay-type-con">
+       <p>选择支付方式</p>
+       <div id="select-pay">
+           <div class="pay-type-icon1 active" data-type="z">
+               <span class="zfb-icon"></span>
+               <b></b>
+           </div>
+           <div class="pay-type-icon2" data-type="b">
+               <span class="bank-icon"></span>
+               <b style=" left:10.2rem;"></b>
+           </div>
+       </div>
+   </div>
+    <div>
+        <form id="invite-form" >
+            <div style="width:80%; margin:0 auto;" id="zfb-con" class="show">
+                <div class="input-group" style="width:100%">
+                    <span class="input-group-addon" style="">支付宝账号</span>
+                    <input id="zfb-account" type="text" class="form-control" placeholder="请输入支付宝账号" aria-describedby="sizing-addon1">
+                </div>
+                <div class="input-group" style="width:100%">
+                    <span class="input-group-addon">账号持有人</span>
+                    <input id="zfb-user" type="text" class="form-control" placeholder="请输入账号持有人" aria-describedby="sizing-addon1">
+                </div>
+            </div>
+            <div style="width:80%; margin:0 auto;" id="bank-con" class="hide">
+                <div class="input-group" style="width:100%">
+                    <span class="input-group-addon" style="">银行卡</span>
+                    <input id="bank-card" type="text" class="form-control" placeholder="请输入银行卡" aria-describedby="sizing-addon1">
+                </div>
+                <div class="input-group" style="width:100%">
+                    <span class="input-group-addon">开户人</span>
+                    <input id="bank-user" type="text" class="form-control" placeholder="请输入开户人" aria-describedby="sizing-addon1">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="common-modal hide" id="myModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="model-body">
+            <img src="img/kefu1.png" alt="">
+            <p>扫码添加客服微信</p>
+            <p>微信号：pengqiuxia288</p>
+        </div>
+    </div>
+
+    <div class="total-price">
+        支付款：￥<span id="total-price"></span>
+    </div>
+    <button id="submit-btn" class="btn-common">去付款</button>
+    <br/><br/>
+</div>
+<div class="pay-type-foot">
+    <div>请务必输入和付款账号一致的信息</div>
+    <div>否则可能会给您造成不必要的麻烦</div>
+</div>
+<script src="//cdn.bootcss.com/jquery/2.1.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/config.js?v=3"></script>
+<script src="js/common.js?v=1"></script>
+<script src="js/json2.js?v=2"></script>
+<script src="js/payType.js?v=4"></script>
+</body>
+</html>
